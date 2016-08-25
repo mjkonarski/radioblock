@@ -33,4 +33,9 @@ public class WrappedArrayIterator implements Iterator<Short> {
         }
         return val;
     }
+
+    @Override
+    public void remove() {
+
+    }
 }
